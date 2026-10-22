@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript: Escaping dan Literal</title>
+  </head>
+  <body>
+    <main>
+      <h1>Escaping dan Literal</h1>
+      <p>
+        Literal adalah nilai yang ditulis langsung di dalam kode. Dalam JavaScript,
+        string dapat ditulis dengan tanda petik tunggal, petik ganda, atau backtick.
+      </p>
+
+      <section aria-labelledby="literal-heading">
+        <h2 id="literal-heading">Contoh literal string</h2>
+        <pre><code>"Halo, dunia!"
+'Belajar JavaScript'
+`Nama: ${nama}`</code></pre>
+        <p id="literal-output"></p>
+      </section>
+
+      <section aria-labelledby="escape-heading">
+        <h2 id="escape-heading">Contoh escaping</h2>
+        <p>
+          Gunakan backslash (<code>\</code>) untuk menulis karakter khusus di dalam
+          string, misalnya tanda petik, baris baru, atau backslash itu sendiri.
+        </p>
+        <pre><code>'Dia berkata: \'Halo!\''
+"Baris pertama\nBaris kedua"
+"Folder\\Dokumen"</code></pre>
+        <ul>
+          <li><code>\'</code> menampilkan tanda petik tunggal.</li>
+          <li><code>\n</code> membuat baris baru.</li>
+          <li><code>\\</code> menampilkan satu karakter backslash.</li>
+        </ul>
+        <pre id="escape-output" aria-label="Hasil contoh escaping"></pre>
+      </section>
+
+      <section aria-labelledby="template-heading">
+        <h2 id="template-heading">Template literal</h2>
+        <p>Template literal memakai backtick dan dapat menyisipkan nilai dengan <code>${...}</code>.</p>
+        <pre id="template-output"></pre>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

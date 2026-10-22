@@ -1,0 +1,77 @@
+/* display block*/ 
+
+.box1 {
+    background: blue;
+    display :block;
+
+}
+
+.box2 {
+    background: red;
+    display :inline-block;
+
+}
+
+.box3 {
+    background: green;
+    display :inline-block;
+
+}
+
+/* display inline */
+nav ul li {
+    font-size: 40px;
+    display: inline;
+
+}
+
+/* display inline-block */
+.box4 {
+    background: yellow;
+    display :inline-block;
+}
+
+
+.box5 {
+    background: orange;
+    display :inline-block;
+
+}
+
+.box6 {
+    background: purple;
+    display :inline-block;
+
+}
+
+/* display flex */
+.flex-container {
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.flex-item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex: 1; 
+}
+
+
+/* display grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    
+}
+
+
+.grid-item {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+}
