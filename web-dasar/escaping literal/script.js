@@ -55,3 +55,14 @@ console.log(dataMhs.substring(15, 5));
 // slice
 console.log(dataMhs.slice(5, 15));
 console.log(dataMhs.slice(15, 5)); // data kosong 
+
+// replace
+console.log(dataMhs.replace("doni", "dino"));
+console.log(ubahData);
+
+// tolower case
+console.log(dataMhs.toLowerCase());
+
+// uppercase
+console.log(dataMhs.toUpperCase());
+
