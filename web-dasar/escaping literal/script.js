@@ -66,3 +66,17 @@ console.log(dataMhs.toLowerCase());
 // uppercase
 console.log(dataMhs.toUpperCase());
 
+// number
+
+let nilai = 10;
+console.log(nilai);
+console.log(typeof nilai);
+
+let nilaiInt = 10.76;
+console.log(parseInt(nilaiInt));
+
+let nilaiFloat = 10.798;
+console.log(parseFloat(nilaiFloat));
+
+let umur = "20";
+console.log(parseInt(umur));
